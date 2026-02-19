@@ -21,9 +21,22 @@ li {
   font-family: 'Poppins', sans-serif;
 };
             background: linear-gradient(to right, #cfd9df, #e2ebf0);
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            .galeri {
+  display: flex;
+  justify-content: center;   /* ini yang bikin ke tengah */
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.galeri img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
             height: 100vh;
             margin: 0;
         }
